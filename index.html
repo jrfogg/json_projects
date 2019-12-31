@@ -5,7 +5,7 @@
 </head>
 <body>
   <script type="text/javascript">
-    let companies = [
+    let companies = `[
       {
         "name": "Big Corporation",
         "numberOfEmployee": 1000,
@@ -16,8 +16,9 @@
         "name": "Small Startup",
         "rating": 4.3
       }
-    ]
+    ]`
 
+    console.log(JSON.parse(companies)[1].name)
   </script>
 </body>
 </html>
