@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Big Corporation",
+    "numberOfEmployee": 1000,
+    "ceo": "Mary",
+    "rating": 3.6
+  },
+  {
+    "name": "Small Startup",
+    "rating": 4.3
+  }
+]
